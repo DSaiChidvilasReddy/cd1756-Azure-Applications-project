@@ -1,6 +1,7 @@
 """
 This script runs the FlaskWebProject application using a development server.
 """
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 from os import environ
 from FlaskWebProject import app
